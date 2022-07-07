@@ -1,4 +1,4 @@
 aiohttp
 aiohttp-debugtoolbar
 websockets
-
+pyserial
