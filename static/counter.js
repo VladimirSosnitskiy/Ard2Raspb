@@ -1,5 +1,5 @@
 window.addEventListener("DOMContentLoaded", () => {
-  const websocket = new WebSocket("ws://127.0.0.1:8480/ws");
+  const websocket = new WebSocket("ws://" + location.host + "/ws");
 
   document.querySelector(".minus").addEventListener("click", () => {
     websocket.send(JSON.stringify({ action: "minus" }));
